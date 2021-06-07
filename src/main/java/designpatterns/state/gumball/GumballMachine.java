@@ -85,7 +85,9 @@ public class GumballMachine {
         StringBuffer result = new StringBuffer();
         result.append("\n주식회사 왕뽑기");
         result.append("\n자바로 돌아가는 2004년형 뽑기 기계(지금은 2021년..)\n");
-        result.append("남은 개수: " + count + "개");
+        result.append("남은 개수: ");
+        result.append(count);
+        result.append("개");
         
         if (state == SOLD_OUT) {
             result.append("매진");
