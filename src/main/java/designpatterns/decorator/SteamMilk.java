@@ -1,7 +1,7 @@
 package designpatterns.decorator;
 
 public class SteamMilk extends CondimentDecorator {
-    Beverage beverage;
+    private Beverage beverage;
 
     public SteamMilk(Beverage beverage) {
         this.beverage = beverage;

@@ -1,7 +1,7 @@
 package designpatterns.command.first;
 
 public class SimpleRemoteControl {
-    Command slot;
+    private Command slot;
 
     public void setCommand(Command command) {
         slot = command;

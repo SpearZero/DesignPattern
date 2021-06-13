@@ -1,7 +1,7 @@
 package designpatterns.command.first;
 
 public class GarageDoorOpenCommand implements Command{
-    GarageDoor garageDoor;
+    private GarageDoor garageDoor;
 
     public GarageDoorOpenCommand(GarageDoor garageDoor) {
         this.garageDoor = garageDoor;
